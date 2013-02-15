@@ -19,7 +19,7 @@ public class Push implements Command{
     @In(type = InjectType.DEFINE)
     private Map<String,Double> m;
 
-    @In(type = InjectType.DEFINE)
+    @In(type = InjectType.STACK)
     private Stack<Double> stack;
 
     @Override

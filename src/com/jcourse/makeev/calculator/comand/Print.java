@@ -16,7 +16,7 @@ import java.util.Stack;
  * To change this template use File | Settings | File Templates.
  */
 public class Print implements Command {
-    @In(type = InjectType.DEFINE)
+    @In(type = InjectType.STACK)
     private Stack<Double> stack;
 
     @Override
