@@ -87,96 +87,11 @@
       <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.92906976">
+            <state line="53" column="0" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.2488372">
               <folding>
                 <element signature="e#684#1814#0" expanded="true" />
                 <element signature="e#1803#1804#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Define.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Define.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="66" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Divide.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Divide.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Minus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Minus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Multiply.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Multiply.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Plus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pop.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Pop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Print.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Print.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Push.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Push.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sqrt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Sqrt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -191,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/ErrorCal.java" />
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Comment.java" />
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Define.java" />
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/PlusImpl.java" />
@@ -207,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Print.java" />
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Push.java" />
         <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/com/jcourse/makeev/calculator/ReedFile.java" />
       </list>
     </option>
   </component>
@@ -298,32 +213,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="makeev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="makeev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -343,10 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="makeev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -461,7 +346,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -546,23 +431,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Minus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+        <state line="17" column="31" selection-start="480" selection-end="480" vertical-scroll-proportion="0.2372093">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/In.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Multiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="17" column="31" selection-start="483" selection-end="483" vertical-scroll-proportion="0.33604652">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="479" selection-end="479" vertical-scroll-proportion="0.33604652">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Pop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="516" selection-end="516" vertical-scroll-proportion="0.2372093">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/InjectType.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+        <state line="18" column="31" selection-start="518" selection-end="518" vertical-scroll-proportion="0.2372093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Push.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="569" selection-end="569" vertical-scroll-proportion="0.29651162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="0.2372093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/CmdInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -581,83 +505,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Comment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/ReedFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.36956522">
+        <state line="27" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.4744186">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Define.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="66" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Divide.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/ErrorCal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Minus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Plus.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/InjectType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Pop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="10" column="12" selection-start="206" selection-end="206" vertical-scroll-proportion="0.19767442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Print.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/In.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Push.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/comand/Sqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+        <state line="17" column="18" selection-start="437" selection-end="437" vertical-scroll-proportion="0.2767442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jcourse/makeev/calculator/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.92906976">
+        <state line="53" column="0" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.2488372">
           <folding>
             <element signature="e#684#1814#0" expanded="true" />
             <element signature="e#1803#1804#0" expanded="true" />
