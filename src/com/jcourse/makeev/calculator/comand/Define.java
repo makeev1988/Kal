@@ -2,9 +2,10 @@ package com.jcourse.makeev.calculator.comand;
 
 import com.jcourse.makeev.calculator.Command;
 import com.jcourse.makeev.calculator.ErrorCal;
+import com.jcourse.makeev.calculator.In;
+import com.jcourse.makeev.calculator.InjectType;
 
 import java.util.Map;
-import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,9 +15,11 @@ import java.util.Stack;
  * To change this template use File | Settings | File Templates.
  */
 public class Define implements Command {
+   @In(type = InjectType.DEFINE)
+   private Map<String,Double> m;
 
     @Override
-    public void execute(String arg, String getName, Stack<Double> stack, Map<String,Double> m) {
+    public void execute(String arg, String getName) {
         if (arg==null || getName==null ){
             new ErrorCal("define");
         }else {

@@ -17,7 +17,7 @@ import java.util.Properties;
 public class CommandFactory {
     private Map<String, Command> commandMap = new HashMap<>();
 
-    public CommandFactory() throws IOException {
+    public CommandFactory(CmdInit init) throws IOException {
 
         Properties p = new Properties();
         try (InputStream in = CommandFactory.class.getResourceAsStream("commands.properties")) {
@@ -28,6 +28,7 @@ public class CommandFactory {
             String className = p.getProperty(commandName);
             try {
                 Command cmd = (Command) Class.forName(className).newInstance();
+                init.initCommand(cmd);
                 commandMap.put(commandName, cmd);
             } catch (Exception e1) {
                 e1.printStackTrace();

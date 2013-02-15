@@ -13,7 +13,7 @@ import java.util.Stack;
  * Time: 15:34
  * To change this template use File | Settings | File Templates.
  */
-public class Push implements Command {
+public class Push implements Command{
 
     @Override
     public void execute(String arg, String getName, Stack<Double> stack, Map<String, Double> m) {

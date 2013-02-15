@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -15,14 +16,40 @@ import java.util.Stack;
  * To change this template use File | Settings | File Templates.
  */
 public class Parser {
-
-
-
     public static void main (String arg[]) throws IOException {
-        Stack <Double> stack = new Stack<>();
-        HashMap<String,Double> m = new HashMap<>();              //карта определений
+        final Stack <Double> stack = new Stack<>();
+        final HashMap<String,Double> m = new HashMap<>();              //карта определений
 
-        CommandFactory factory = new CommandFactory();
+        CommandFactory factory = new CommandFactory(new CmdInit() {
+            @Override
+            public void initCommand(Command cmd) {
+               Class cls = cmd.getClass();
+               Field[] f = cls.getDeclaredFields();
+               for(Field current: f){
+
+                   In inType = current.getAnnotation(In.class);
+
+                   if (inType != null){
+                       if (inType.type() == InjectType.DEFINE){
+                           try {
+                               current.setAccessible(true);
+                               current.set(cmd,m);
+                           } catch (IllegalAccessException e) {
+                               e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                           }
+                       }else if (inType.type() == InjectType.STACK){
+                           try {
+                               current.setAccessible(true);
+                               current.set(cmd,m);
+                           } catch (IllegalAccessException e) {
+                               e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                           }
+                       }
+                   }
+
+               }
+            }
+        });
 
         InputStream in = System.in;
 
@@ -34,13 +61,12 @@ public class Parser {
                 System.out.println("Файл не найден");
             }
         }
+
         ReedFile rf = new ReedFile(in);
 
         String s;
-
         try {
             while ( (s = rf.getNextSting()) != null) {
-
                 s = s.trim();
                 String[] st = s.split(" ");
 
@@ -58,8 +84,7 @@ public class Parser {
                 if (st.length > 2){
                     arg2 = st[2];
                 }
-
-                c.execute(arg1, arg2, stack, m);
+                c.execute(arg1, arg2);
             }
         } catch (Exception e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
