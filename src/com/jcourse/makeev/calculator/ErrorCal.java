@@ -1,5 +1,6 @@
 package com.jcourse.makeev.calculator;
 
+import java.lang.String;
 import java.util.HashMap;
 
 /**
@@ -16,8 +17,11 @@ public class ErrorCal {
         listError.put("стек пуст","Не удается выполнить операцию, в среке пусто.");
         listError.put("в стеке меньше 2","Не удается выполнить операцию, в среке недостаточно элементов.");
         listError.put("define","Не корректное определение.");
+        listError.put("количество аргументов", "Неверное колличество аргументов.");
     }
     public ErrorCal(String typeError){
         System.out.println(listError.get(typeError));
     }
+
+
 }

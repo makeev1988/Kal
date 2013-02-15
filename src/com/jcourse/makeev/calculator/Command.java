@@ -8,5 +8,5 @@ package com.jcourse.makeev.calculator;
  * To change this template use File | Settings | File Templates.
  */
 public interface Command {
-    void execute(String arg, String getName);
+    void execute(String[] st);
 }

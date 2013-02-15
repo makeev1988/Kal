@@ -35,14 +35,14 @@ public class Parser {
                                current.setAccessible(true);
                                current.set(cmd,m);
                            } catch (IllegalAccessException e) {
-                               e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                               e.printStackTrace();
                            }
                        }else if (inType.type() == InjectType.STACK){
                            try {
                                current.setAccessible(true);
-                               current.set(cmd,m);
+                               current.set(cmd,stack);
                            } catch (IllegalAccessException e) {
-                               e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                               e.printStackTrace();
                            }
                        }
                    }
@@ -57,7 +57,7 @@ public class Parser {
             try {
                 in = new FileInputStream(arg[0]);
             } catch (FileNotFoundException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
                 System.out.println("Файл не найден");
             }
         }
@@ -68,23 +68,15 @@ public class Parser {
         try {
             while ( (s = rf.getNextSting()) != null) {
                 s = s.trim();
-                String[] st = s.split(" ");
+                String[] comAndArg = s.split(" ");
 
-                Command c =  factory.getCom(st[0].toUpperCase());
+                Command currentCom =  factory.getCom(comAndArg[0].toUpperCase());
 
-                if (c == null){
+                if (currentCom == null){
                     System.out.println("Неизвестная команда");
                     continue;
                 }
-                String arg1 = null, arg2 = null;
-                if (st.length > 1){
-                    arg1 = st[1];
-                }
-
-                if (st.length > 2){
-                    arg2 = st[2];
-                }
-                c.execute(arg1, arg2);
+                currentCom.execute(comAndArg);
             }
         } catch (Exception e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.

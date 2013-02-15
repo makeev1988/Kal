@@ -2,9 +2,10 @@ package com.jcourse.makeev.calculator.comand;
 
 import com.jcourse.makeev.calculator.Command;
 import com.jcourse.makeev.calculator.ErrorCal;
+import com.jcourse.makeev.calculator.In;
+import com.jcourse.makeev.calculator.InjectType;
 
 import java.util.EmptyStackException;
-import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -15,13 +16,19 @@ import java.util.Stack;
  * To change this template use File | Settings | File Templates.
  */
 public class Print implements Command {
+    @In(type = InjectType.DEFINE)
+    private Stack<Double> stack;
 
     @Override
-    public void execute(String arg, String getName, Stack stack, Map m) {
-        try {
-            System.out.println(stack.peek());
-        } catch (EmptyStackException e){
-            new ErrorCal("стек пуст");
+    public void execute(String[] comAndArg) {
+        if (comAndArg.length == 1){
+            try {
+                System.out.println(stack.peek());
+            } catch (EmptyStackException e){
+                new ErrorCal("стек пуст");
+            }
+        }else {
+            new ErrorCal("количество аргументов");
         }
     }
 }

@@ -19,11 +19,19 @@ public class Define implements Command {
    private Map<String,Double> m;
 
     @Override
-    public void execute(String arg, String getName) {
-        if (arg==null || getName==null ){
-            new ErrorCal("define");
+    public void execute(String[] comAndArg) {
+        String arg;
+        String name;
+        if (comAndArg.length == 3){
+            name = comAndArg[1];
+            arg = comAndArg[2];
+            if (arg==null || name==null ){
+                new ErrorCal("define");
+            }else {
+                m.put(name, Double.parseDouble(arg));
+            }
         }else {
-            m.put(arg, Double.parseDouble(getName));
+            new ErrorCal("количество аргументов");
         }
     }
 }
